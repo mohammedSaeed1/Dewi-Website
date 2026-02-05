@@ -232,3 +232,27 @@ color: #273D4E;
     color: black;
     padding: 8px;
  }
+.portfolio{
+    padding: 30px;
+}
+ .portfolio p{
+    color: #A1B6CB;
+ }
+.portfolio h2{
+font-size: 35px;
+color: #273D4E;
+ }
+ .portfolio .photos{
+    padding: 45px;
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .photos img{
+    width: 33.333%;
+    padding: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+ }
+ .photos img:hover{
+   transform: scale(1.1);
+ }
