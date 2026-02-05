@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    /* width: 100%; */
+}
+nav{
+    position: fixed;
+    width: 100%;
+    color: white;
+    margin: 10px;
+}
+nav .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+nav ul{
+    display: flex;
+     list-style: none;
+}
+nav ul li{
+margin: 10px;
+}
+nav ul li a{
+   text-decoration: none;
+   color: white;
+}
+main{
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+main .content{
+    color: white;
+}
+main .content h2 {
+    margin: 20px 0;
+}
+main .content p {
+    margin: 20px 0;
+}
+main .content button {
+    color: white;
+    margin: 20px 0;
+    padding: 15px;
+    border: none;
+}
+main .content button.get-started {
+    background-color: #FF4A17;
+    color: white;
+     border-radius: 5px;
+    margin-right:10px;
+}
+main .content button.watch-video {
+    background-color: transparent;
+    color: white;
+    /* margin: 20px 0; */
+}
+main .content button.watch-video i {
+    background-color: transparent;
+    color: #FF4A17 ;
+}
+/* main .content button.watch-video span {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: transparent;
+} */
