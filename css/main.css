@@ -256,3 +256,43 @@ color: #273D4E;
  .photos img:hover{
    transform: scale(1.1);
  }
+ .team{
+    padding: 30px;
+ }
+ .all-team{
+    display: flex;
+
+ }
+ .teamm{
+    width: 33.33%;
+    text-align: center;
+    position: relative;
+ }
+  .teamm img{
+    width: 100%;
+    padding: 10px;
+ }
+  .team p{
+    color: #A1B6CB;
+ }
+ .team h2{
+font-size: 35px;
+color: #273D4E;
+ }
+ .team-content{
+     background-color: white;
+    text-align: center;
+    position: absolute;
+    top: 90%;
+    width: 80%;
+    left: 10%;
+ }
+ .team-content h3{
+     padding: 20px;
+     font-size: 25px;
+     color: #273D4E;
+ }
+  .team-content p{
+     padding: 10px;
+     color: #444444;
+ }
