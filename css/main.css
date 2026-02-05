@@ -140,18 +140,17 @@ main .home-content button.watch-video i {
     background-color: white;
     padding: 30px 90px;
  }
- .services{
+ .services1{
     padding: 8px;
  }
- .services p{
+ .services1 p{
     color: #A1B6CB;
  }
- .services h2{
+ .services1 h2{
 font-size: 35px;
 color: #273D4E;
  }
- .our-services{
-    /* background-color: white; */
+ .featured-services{
     display: flex;
  }
  .service{
@@ -197,4 +196,39 @@ color: #273D4E;
  }
  .clients img{
     width: 7%;
+ }
+  .services2{
+    background-color: #F1F4FA;
+  }
+ .services2 p{
+    color: #A1B6CB;
+ }
+ .services2 h2{
+font-size: 35px;
+color: #273D4E;
+ }
+ .urs-service{
+ display: flex;
+ flex-wrap: wrap;
+ padding: 40px;
+}
+ .servicee{
+   padding: 30px;
+   background-color: white;
+   width: 50%;
+}
+ .inner-servicee{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+ }
+ .servicee i{
+    color: #FF4A17;
+ }
+ .servicee h3{
+    color: #273D4E;
+ }
+ .servicee p{
+    color: black;
+    padding: 8px;
  }
