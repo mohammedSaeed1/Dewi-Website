@@ -187,3 +187,14 @@ color: #273D4E;
     padding: 25px;
     color: #7E7E7E;
  }
+ .clients{
+    background-color: #F1F4FA;
+    /* width: 100%; */
+    margin: 120px 0;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .clients img{
+    width: 7%;
+ }
