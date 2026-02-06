@@ -48,7 +48,7 @@ nav button:hover{
    background-color: #FF4A17;
 }
 .main{
-    background-image: url(../images/hero-bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../images/hero-bg.jpg);
     background-size: cover;
     height: 100vh;
     text-align: center;
@@ -578,9 +578,9 @@ footer .newsletter{
     margin-bottom: 70px;
  }
 }
-@media screen and (max-width:1280px) {
+/* @media screen and (max-width:1280px) {
    
 }
 @media screen and (max-width:1536px) {
    
-}
+} */
