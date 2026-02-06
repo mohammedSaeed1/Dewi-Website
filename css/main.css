@@ -15,6 +15,7 @@ nav{
     width: 100%;
     color: white;
     margin: 10px;
+    padding: 10px 0;
 }
 nav .nav{
     display: flex;
@@ -568,6 +569,13 @@ footer ul{
 footer .newsletter{
    width: 100%;
 }  
+nav .nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-left: 0px;
+}
 }
 @media screen and (max-width:1024px) {
   .info{
