@@ -34,6 +34,19 @@ nav ul li a{
    text-decoration: none;
    color: white;
 }
+nav button{
+   background-color: transparent;
+   border: 1px solid white;
+   color: white;
+   transition: 0.5s;
+   padding: 10px 15px;
+   margin-left: 10px;
+   cursor: pointer;
+   border-radius: 5px;
+}
+nav button:hover{
+   background-color: #FF4A17;
+}
 .main{
     background-image: url(../images/hero-bg.jpg);
     background-size: cover;
@@ -44,41 +57,46 @@ nav ul li a{
     align-items: center;
 }
 
-main .home-content{
+.main .home-content{
     color: white;
 }
-main .home-content h2 {
+.main .home-content h2 {
     margin: 20px 0;
+    font-size: 50px;
+    font-weight: bold;
 }
-main .home-content p {
+.main .home-content p {
     margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
 }
-main .home-content button {
+.main .home-content button {
     color: white;
     margin: 20px 0;
     padding: 15px;
     border: none;
+    cursor: pointer;
 }
-main .home-content button.get-started {
+.main .home-content button.get-started {
     background-color: #FF4A17;
     color: white;
      border-radius: 5px;
     margin-right:10px;
 }
-main .home-content button.watch-video {
+.main .home-content button.watch-video {
     background-color: transparent;
     color: white;
     margin: 20px 0; 
 }
-main .home-content button.watch-video i {
+.main .home-content button.watch-video i {
     background-color: transparent;
     color: #FF4A17 ;
 }
- /* main .content button.watch-video span {
-    width: 200px;
-    height: 200px;
+ /* .main .content button.watch-video .icon {
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
-    background-color: transparent;
+    background-color: #FF4A17;
 }  */
  .about{
     display: flex;
@@ -458,4 +476,111 @@ footer p{
 }
 .copyright{
    text-align: center;
+}
+
+@media screen and (max-width:768px) {
+nav .nav{
+    display: block;
+}
+nav{
+    display: block;
+}
+.main .home-content h2 {
+    font-size: 30px;
+}
+nav button{
+  display: none;
+}
+.about{
+    display: block;
+ }
+ .about .part1{
+    width: 100%;
+ }
+  .about .part2{
+    width: 100%;
+ }
+ .about .part1 img{
+    width: 100%;
+ }
+ .about .part2 img{
+    width: 100%;
+ }
+ .info{
+   display: block;
+ }
+ .featured-services{
+    display: block;
+ }
+ .service{
+    width: 100%;
+    position: relative;
+    margin-bottom: 70px;
+    transition: 0.5s;
+ }
+ .clients{
+    margin: 50px 0;
+    display: block;
+    text-align: center;
+ }
+ .clients img{
+    width: 50%;
+ }
+ .urs-service{
+ display: block;
+}
+ .servicee{
+   width: 100%;
+}
+ .inner-servicee{
+    column-gap: 0px;
+ }
+ .photos img{
+    width: 100%;
+ }
+ .all-team{
+    display: block;
+ }
+ .teamm{
+   width: 100%;
+ }
+.contact .contact-info{
+   width: 100%;
+ }
+ .contact .contact-info .part2{
+   width: 100%;
+}
+.contact-details{
+    display:block;
+ }
+ .contact .send-form{
+   display: none;
+ }
+ .partt2{
+   display: block;
+ }
+ .inner-footer{
+   display: block;
+}
+footer ul{
+   width: 100%;
+}
+footer .newsletter{
+   width: 100%;
+}  
+}
+@media screen and (max-width:1024px) {
+  .info{
+   display: block;
+ } 
+  .service{
+    width: 100%;
+    margin-bottom: 70px;
+ }
+}
+@media screen and (max-width:1280px) {
+   
+}
+@media screen and (max-width:1536px) {
+   
 }
