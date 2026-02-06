@@ -258,6 +258,7 @@ color: #273D4E;
  }
  .team{
     padding: 30px;
+    background-color: #F1F4FA;
  }
  .all-team{
     display: flex;
@@ -296,3 +297,79 @@ color: #273D4E;
      padding: 10px;
      color: #444444;
  }
+
+ .contact{
+padding: 100px;
+ }
+ .contact .contact-info{
+   width: 50%;
+   text-align: center;
+ }
+ .contact .contact-info .part1{
+   width: 100%;
+   background-color: white;
+   margin: 10px 0;
+ box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px;
+ padding: 20px;
+}
+.contact .contact-info .part2{
+   width: 50%;
+   background-color: white;
+   margin: 30px 0;
+ box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px;
+ padding: 20px;
+}
+  .contact .contact-info i{
+  color: #FF4A17;
+  margin: 10px 0;
+  font-size: 25px;
+ }
+ .contact .contact-info h3{
+  color: #696969;
+  margin: 10px 0;
+ }
+ .contact .contact-info p{
+  color: #696969;
+  margin: 10px 0;
+ }
+  .contact .send-form{
+   width: 50%;
+ box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px;
+padding: 62px;
+margin: auto;
+text-align: center;
+ }
+ .contact-details{
+    display: flex;
+    column-gap: 20px;
+ }
+ .contact p{
+    color: #A1B6CB;
+
+ }
+ .contact h2{
+font-size: 35px;
+color: #273D4E;
+ }
+ .partt2{
+   display: flex;
+   column-gap: 20px;
+ }
+ .send-form input{
+    padding: 10px ;
+ }
+ .send-form input[name="subject"]{
+    width: 100%;
+    margin: 20px 0;
+ }
+textarea{
+   width: 100%;
+}
+.send-form button{
+   padding: 15px 18px;
+   color: white;
+   background-color: #FF4A17;
+   border-radius: 20px;
+   border: none;
+   margin: 5px 0;
+}
